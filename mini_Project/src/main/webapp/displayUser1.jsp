@@ -61,11 +61,7 @@ try {
 
 		</nav>
 	</header> 
-	<!-- 
-	<div class="buttons">
-		<button
-			style="width: 100px; height: 40px; margin-top: 160px; color: yellow; background-color: black; border: none; border-radius: 20px">button</button>
-	</div> -->
+	
 	<div class="table1">
 	
 	<%
@@ -94,7 +90,8 @@ try {
 	%>
 		
 	<img src="images/<%=img%> " width="160" height="200">
-	</div>
+	<% out.println("</div>");%>
+	
 	</div>
 	
 	
